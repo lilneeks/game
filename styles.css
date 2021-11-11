@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242424;
+}
+
+header {
+    background: purple;
+}
+
+header > h1 {
+    color: red;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 200px;
+    color: white;
+    font-size:  46px;
+
+
+}
