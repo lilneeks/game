@@ -5,11 +5,12 @@
 }
 
 body {
-    background-color: #242424;
+    background-color: lightblue;
 }
 
 header {
     background: purple;
+    padding: 50;
 }
 
 header > h1 {
@@ -18,13 +19,21 @@ header > h1 {
     font-family: sans-serif;
 }
 
+
+.badge{
+    color: maroon;
+}
+
 .score-board {
     margin: 20px auto;
-    border: 3px solid white;
+    border: 3px solid magenta;
     border-radius: 4px;
+    text-align: center;
     width: 200px;
     color: white;
     font-size:  46px;
+    padding: 15px 20px;
+    font-family: sans-serif;
 
 
 }
